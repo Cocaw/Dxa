@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
-import Spiner from "../components/Spiner/Spiner";
+import Spiner from "../components/Spiner";
 
 function VerCliente() {
   const [cliente, setCliente] = useState({});

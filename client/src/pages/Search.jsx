@@ -1,6 +1,6 @@
 import { useState } from "react";
 import ResultadosBusquedad from "../components/Busqueda/ResultadosBusqedad";
-import Spiner from "../components/Spiner/Spiner";
+import Spiner from "../components/Spiner";
 
 function Search() {
   const [clientes, setClientes] = useState([]);

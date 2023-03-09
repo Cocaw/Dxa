@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import Cliente from "../components/Clientes/Cliente";
 import Confirmar from "../components/Clientes/Confirmar";
-import Spiner from "../components/Spiner/Spiner";
+import Spiner from "../components/Spiner";
 
 function MostrarClientes() {
   const [eliminar, setEliminar] = useState(0);

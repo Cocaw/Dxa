@@ -1,4 +1,4 @@
-import "../styles/Spiner.css"
+import '../styles/Spiner.css'
 function Spiner() {
   return (
     <div className="sk-cube-grid">

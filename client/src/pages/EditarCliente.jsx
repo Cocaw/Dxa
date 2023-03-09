@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import Formulario from "../components/Formularios/Formulario";
-import Spiner from "../components/Spiner/Spiner";
+import Spiner from "../components/Spiner"
 
 function EditarCliente() {
   const [cliente, setCliente] = useState({});
